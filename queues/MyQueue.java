@@ -1,5 +1,6 @@
 //https://leetcode.com/problems/implement-queue-using-stacks/
-//This has been implemented using stack
+//This has been implemented using stack but during pop operation a temporary stack has been used.
+//The time complexity for every pop operation is o(n)
 
 class MyQueue {
     Stack<Integer> mstack;
